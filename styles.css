@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto auto;
+    border: solid black 3px;
+    width: 1000px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.DivTitle {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Fonts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto auto;
+    border: solid black 3px;
+    width: 1000px;
+    height: 75px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#system_ui {
+    font-family: system-ui;
+}
+
+#Arial {
+    font-family: Arial;
+}
+
+#Helvetica {
+    font-family: Helvetica;
+}
+
+#Blue {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: #0021A5;
+    border: solid black 3px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#Orange {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: #FA4616;
+    border: solid black 3px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#Green {
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    border: solid black 3px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.TextStyles {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto auto;
+    border: solid black 3px;
+    width: 1000px;
+    height: 300px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Headers {
+    margin: auto auto;
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: 'Segoe UI';
+}
+
+#Subheadings {
+    margin: auto auto;
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: 'Arial';
+}
+
+#Paragraphs {
+    margin: auto auto;
+    font-size: 12px;
+    font-weight: 250px;
+    font-family: 'Helvetica';
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: 'Segoe UI';
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: 'Arial';
+}
+
+p {
+    margin: auto auto;
+    font-size: 12px;
+    font-weight: 250px;
+    font-family: 'Helvetica';
+}
